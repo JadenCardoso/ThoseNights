@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Vent System Controll</title>
+    </head>
+    <body>
+
+        <style>
+            #Tasks{
+                display:block;
+            }
+            #Vent{
+                display:none;
+            }
+            #Advertising{
+                display: none;
+            }
+            #Equipment{
+                display: none;
+            }
+            #Motion{
+                display: none;
+            }
+            #Supplies{
+                display: none;
+            }
+            #Maintenance{
+                display: none;
+            }
+            button{
+                background-color:darkslategrey;
+                border:solid blue 0.5px;
+                color:blue;
+            }
+            body{
+                background-color: black;
+                color:blanchedalmond;
+            }
+        </style>
+
+        <center>
+        <div>
+            <span><button id="TaskBtn">TASKS</button><button id="MotionBtn">MOTION D.</button><button id="AudioBtn">AUDIO</button><button id="VentBtn">VENT</button></span>
+            <br>
+            <br>
+            <br>
+            <div id="Tasks">
+                <button id="SuppliesBtn">ORDER SUPPLIES</button>
+                <br>
+                <button id="AdvertBtn">ADVERTISING</button>
+                <br>
+                <button id="MaintenanceBtn">MAINTENANCE</button>
+                <br>
+                <button id="EquipBtn">EQUIPMENT</button>
+            </div>
+            <div id="Advertising">
+                <button id="printFlyerBtn">PRINT FLYERS</button>
+                <button id="PrintPosterBtn">PRINT POSTERS</button>
+                <button id="PrintMenuBtn">PRINT MENUS</button>
+                <br>
+                <br>
+                <br>
+                <button class="BackTasks">BACK</button>
+            </div>
+            <div id="Equipment">
+                <button id="PrinterBtn">X2 PRINTER</button>
+                <button id="SpeedBtn">HI-SPD-UPLINK</button>
+                <button id="ManBtn">HIRE HANDYMAN</button>
+                <br>
+                <br>
+                <br>
+                <button id="BackTasks">BACK</button>
+            </div>
+            <div id="Motion">
+                <img src="Map.png" style="width: 50%; height: 49%;">
+                <br>
+                <br>
+                <span><label>Activate motion scanning?</label><button id="MotionNoiseBtn">YES</button></span>
+            </div>
+            <div id="Supplies">
+                <button>ORDER CUPS</button>
+                <button>ORDER PLATES</button>
+                <button>ORDER NAPKINS</button>
+                <button>ORDER UTENSILS</button>
+                <button>ORDER PIZZA KITS</button>
+                <br>
+                <br>
+                <br>
+                <button class="BackTasks">BACK</button>
+            </div>
+            <div id="Maintenance">
+                <button>UNCLOG TOILETS</button>
+                <button>CLEAN OVENS</button>
+                <button>REPLACE BULBS</button>
+                <br>
+                <br>
+                <br>
+                <button class="BackTasks">BACK</button>
+            </div>
+            <div id="Audio">
+
+            </div>
+            <div id="Vent">
+                <span><h3>Silent Ventilation is a <br>secondary ventilation <br>system that runs in the <br>background, creating <br>minimal noise.</h3></span>
+                <span><label>Activate silent ventilation?</label><button id="FanNoise">YES</button></span>
+            </div>
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
